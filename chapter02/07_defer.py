@@ -40,7 +40,11 @@ def node_b(state: OverAllState) -> OverAllState:
 
 
 def node_defer(state: OverAllState) -> OverAllState:
-    logger.info(f"任务节点全部完毕，诗 {'已生成' if state["poem"] else '未生成'}")
+    logger.info(
+        f"任务节点全部完毕，诗 {'已生成' if state.get('poem') else '未生成'}，"
+        f"笑话 {'已生成' if state.get('joke') else '未生成'}"
+    )
+    return {}
 
 def router(state: OverAllState) -> Sequence[Literal["poem", "joke", "poem_ci"]]:
     if "诗" in state["content_type"]:
