@@ -10,7 +10,8 @@ from langchain.messages import HumanMessage
 ./pg.sh status    # 看状态
 ./pg.sh psql      # 进数据库
 ./pg.sh start     # 每次要用
-链接数据库： DB_URL = "postgresql://postgres:postgres@81.70.31.254:5432/langgraph"
+链接数据库： 
+DB_URL = "postgresql://postgres:postgres@81.70.31.254:5432/langgraph"
 
 
 执行的时候，durability="async" # sync / exit代表不同的缓存模式
