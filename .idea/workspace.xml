@@ -4,31 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c23f3935-f6b3-4d5c-8bf4-0450f2f4858c" name="更改" comment="demo">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter01/01_typedict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter01/02_dataclass.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter01/03_pydantic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter01/04_reducer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter01/05_addmessage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter01/06_nodestate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter01/07_node_overwrite.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter01/08_node_parallel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter01/09_4states.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter01/10_message.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter02/01_edge.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter02/02_parallel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter02/03_route.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter02/04_route_pathmap.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter02/05_route_2nodes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter02/07_defer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter02/08_dynamic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter02/09_conmmand.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter02/10_fan_in_and.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter02/11_mapreduce.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tools/got_mp3.py" afterDir="false" />
+    <list default="true" id="c23f3935-f6b3-4d5c-8bf4-0450f2f4858c" name="更改" comment="0916">
+      <change afterPath="$PROJECT_DIR$/chapter04/07_static_interrupt.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter04/08_tool_handle.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter04/09_ToolNode.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hitl_demo/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hitl_demo/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hitl_demo/langgraph.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hitl_demo/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hitl_demo/src/agent.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hitl_demo/src/chat_agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter02/graph.png" beforeDir="false" afterPath="$PROJECT_DIR$/chapter02/graph.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/req_full.txt" beforeDir="false" afterPath="$PROJECT_DIR$/req_full.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +28,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -57,53 +48,70 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.01_edge.executor&quot;: &quot;Run&quot;,
-    &quot;Python.01_graph.executor&quot;: &quot;Run&quot;,
-    &quot;Python.02_parallel.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_pydantic (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_route.executor&quot;: &quot;Run&quot;,
-    &quot;Python.03_route_pathmap.executor&quot;: &quot;Run&quot;,
-    &quot;Python.04_reducer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.05_addmessage.executor&quot;: &quot;Run&quot;,
-    &quot;Python.05_route_2nodes.executor&quot;: &quot;Run&quot;,
-    &quot;Python.06_nodestate.executor&quot;: &quot;Run&quot;,
-    &quot;Python.07_defer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.07_node_overwrite.executor&quot;: &quot;Run&quot;,
-    &quot;Python.08_dynamic.executor&quot;: &quot;Run&quot;,
-    &quot;Python.08_node_parallel.executor&quot;: &quot;Run&quot;,
-    &quot;Python.09_4states.executor&quot;: &quot;Run&quot;,
-    &quot;Python.09_conmmand.executor&quot;: &quot;Run&quot;,
-    &quot;Python.10_fan_in_and.executor&quot;: &quot;Run&quot;,
-    &quot;Python.10_message.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.pydantic.executor&quot;: &quot;Run&quot;,
-    &quot;Python.state.executor&quot;: &quot;Run&quot;,
-    &quot;Python.state_pydantic (1).executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Fabian/PycharmProjects/py_LangGraph/chapter02&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.01_edge.executor": "Run",
+    "Python.01_graph.executor": "Run",
+    "Python.01_in_SQL.executor": "Run",
+    "Python.01_in_memory.executor": "Run",
+    "Python.02_in_SQL (1).executor": "Run",
+    "Python.02_parallel.executor": "Run",
+    "Python.03_lastest_checkpoint.executor": "Run",
+    "Python.03_pydantic (1).executor": "Run",
+    "Python.03_route.executor": "Run",
+    "Python.03_route_pathmap.executor": "Run",
+    "Python.04_history_checkpoint.executor": "Run",
+    "Python.04_reducer.executor": "Run",
+    "Python.05_addmessage.executor": "Run",
+    "Python.05_route_2nodes.executor": "Run",
+    "Python.06_nodestate.executor": "Run",
+    "Python.07_defer.executor": "Run",
+    "Python.07_node_overwrite.executor": "Run",
+    "Python.08_dynamic.executor": "Run",
+    "Python.08_node_parallel.executor": "Run",
+    "Python.09_4states.executor": "Run",
+    "Python.09_conmmand.executor": "Run",
+    "Python.10_fan_in_and.executor": "Run",
+    "Python.10_message.executor": "Run",
+    "Python.11_mapreduce.executor": "Run",
+    "Python.12_react_cycle.executor": "Run",
+    "Python.13_react_cycle_Command.executor": "Run",
+    "Python.14_remain_steps.executor": "Run",
+    "Python.15_retry.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.pydantic.executor": "Run",
+    "Python.state.executor": "Run",
+    "Python.state_pydantic (1).executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Fabian/PycharmProjects/py_LangGraph/chapter04",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;repository&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "repository"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Fabian\PycharmProjects\py_LangGraph\chapter04" />
+      <recent name="C:\Users\Fabian\PycharmProjects\py_LangGraph\chapter03" />
       <recent name="C:\Users\Fabian\PycharmProjects\py_LangGraph\chapter02" />
       <recent name="C:\Users\Fabian\PycharmProjects\py_LangGraph\chapter01" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Fabian\PycharmProjects\py_LangGraph" />
+      <recent name="C:\Users\Fabian\PycharmProjects\py_LangGraph\chapter04" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.10_fan_in_and">
-    <configuration name="05_route_2nodes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.04_history_checkpoint">
+    <configuration name="02_in_SQL (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="py_LangGraph" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -112,11 +120,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter02" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter03" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter02/05_route_2nodes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter03/02_in_SQL.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,7 +133,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="07_defer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="02_in_SQL" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="py_LangGraph" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,11 +142,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter02" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter03" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter02/07_defer.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Fabian\PycharmProjects\py_LangGraph\chapter03\02_in_SQL.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,7 +155,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="08_dynamic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="03_get_checkpoint" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="py_LangGraph" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,11 +164,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter02" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter03" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter02/08_dynamic.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Fabian\PycharmProjects\py_LangGraph\chapter03\03_get_checkpoint.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -169,7 +177,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="09_conmmand" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="04_history_checkpoint" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="py_LangGraph" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -178,11 +186,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter02" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter03" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter02/09_conmmand.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter03/04_history_checkpoint.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,7 +199,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="10_fan_in_and" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="py_LangGraph" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -200,11 +208,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter02" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter02/10_fan_in_and.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -215,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.10_fan_in_and" />
-        <item itemvalue="Python.07_defer" />
-        <item itemvalue="Python.09_conmmand" />
-        <item itemvalue="Python.08_dynamic" />
-        <item itemvalue="Python.05_route_2nodes" />
+        <item itemvalue="Python.04_history_checkpoint" />
+        <item itemvalue="Python.03_get_checkpoint" />
+        <item itemvalue="Python.02_in_SQL (1)" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.02_in_SQL" />
       </list>
     </recent_temporary>
   </component>
@@ -246,11 +254,97 @@
       <option name="project" value="LOCAL" />
       <updated>1789179585081</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="0913">
+      <option name="closed" value="true" />
+      <created>1789306030573</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1789306030573</updated>
+    </task>
+    <task id="LOCAL-00003" summary="0913">
+      <option name="closed" value="true" />
+      <created>1789306056006</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1789306056006</updated>
+    </task>
+    <task id="LOCAL-00004" summary="0914">
+      <option name="closed" value="true" />
+      <created>1789391953771</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1789391953771</updated>
+    </task>
+    <task id="LOCAL-00005" summary="0914">
+      <option name="closed" value="true" />
+      <created>1789397823623</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1789397823623</updated>
+    </task>
+    <task id="LOCAL-00006" summary="0914">
+      <option name="closed" value="true" />
+      <created>1789397870104</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1789397870104</updated>
+    </task>
+    <task id="LOCAL-00007" summary="0914">
+      <option name="closed" value="true" />
+      <created>1789400512244</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1789400512244</updated>
+    </task>
+    <task id="LOCAL-00008" summary="0915">
+      <option name="closed" value="true" />
+      <created>1789487633197</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1789487633198</updated>
+    </task>
+    <task id="LOCAL-00009" summary="0915">
+      <option name="closed" value="true" />
+      <created>1789490746193</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1789490746193</updated>
+    </task>
+    <task id="LOCAL-00010" summary="0915">
+      <option name="closed" value="true" />
+      <created>1789574429021</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1789574429021</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="demo" />
+    <MESSAGE value="0913" />
+    <MESSAGE value="0914" />
+    <MESSAGE value="0915" />
+    <option name="LAST_COMMIT_MESSAGE" value="0915" />
   </component>
 </project>
